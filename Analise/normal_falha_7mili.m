@@ -27,6 +27,10 @@
 % 5 - O experimento tem um tempo de warmup? Verificar isso no artigo.
 %     Caso haja, remover esse tempo na base de dados. Ex. 1 seg de warmup: retirar as primeiras 48k linhas.
 
+%% Limpando o workspace
+clear
+clc
+
 %% Carregamento de dados
 %
 % Carregando os dados de Normal Baseline (dados "sem falha"):
